@@ -46,11 +46,15 @@ Proyek ini tidak hanya memenuhi **seluruh persyaratan wajib (Core Requirements)*
 
 | Halaman Landing & Login | Dashboard (Ringkasan & Chart) |
 | :---: | :---: |
-| <img src="https://via.placeholder.com/600x350/f8fafc/10b981?text=Masukkan+Gambar+Halaman+Login+Disini" alt="Login Page" width="100%"/> | <img src="https://via.placeholder.com/600x350/f8fafc/10b981?text=Masukkan+Gambar+Dashboard+Disini" alt="Dashboard" width="100%"/> |
+| <img width="1920" height="1080" alt="Screenshot 2026-05-07 162149" src="https://github.com/user-attachments/assets/141bed13-7158-46ed-b04d-c9a301c2a889" />
+ | <img width="1920" height="1080" alt="Screenshot 2026-05-07 162243" src="https://github.com/user-attachments/assets/a3383d14-a61b-4d4a-a378-ece55f8d1b6c" />
+ |
 
 | Halaman Direktori Karyawan | Riwayat Aktivitas (Trigger TLOG) |
 | :---: | :---: |
-| <img src="https://via.placeholder.com/600x350/f8fafc/10b981?text=Masukkan+Gambar+Tabel+Karyawan+Disini" alt="Direktori Karyawan" width="100%"/> | <img src="https://via.placeholder.com/600x350/f8fafc/10b981?text=Masukkan+Gambar+Riwayat+TLOG+Disini" alt="Activity Logs" width="100%"/> |
+| <img width="1920" height="1080" alt="Screenshot 2026-05-07 162258" src="https://github.com/user-attachments/assets/71068a67-e7ef-47c7-9d29-024d5dd7d983" />
+ | <img width="1920" height="1080" alt="Screenshot 2026-05-07 162312" src="https://github.com/user-attachments/assets/6fdedf34-4751-481d-8592-2f2d51d33cc8" />
+ |
 
 ---
 
