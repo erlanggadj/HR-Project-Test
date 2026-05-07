@@ -52,9 +52,8 @@ Proyek ini tidak hanya memenuhi **seluruh persyaratan wajib (Core Requirements)*
 
 | Halaman Direktori Karyawan | Riwayat Aktivitas (Trigger TLOG) |
 | :---: | :---: |
-| <img width="1920" height="1080" alt="Screenshot 2026-05-07 162258" src="https://github.com/user-attachments/assets/71068a67-e7ef-47c7-9d29-024d5dd7d983" />
- | <img width="1920" height="1080" alt="Screenshot 2026-05-07 162312" src="https://github.com/user-attachments/assets/6fdedf34-4751-481d-8592-2f2d51d33cc8" />
- |
+| <img width="1920" height="1080" alt="Screenshot 2026-05-07 162258" src="https://github.com/user-attachments/assets/71068a67-e7ef-47c7-9d29-024d5dd7d983" /> | 
+|<img width="1920" height="1080" alt="Screenshot 2026-05-07 162312" src="https://github.com/user-attachments/assets/6fdedf34-4751-481d-8592-2f2d51d33cc8" /> |
 
 ---
 
