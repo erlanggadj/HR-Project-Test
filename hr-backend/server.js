@@ -27,7 +27,7 @@ app.post("/api/login", (req, res) => {
   const { email, password } = req.body;
 
   if (email === "admin@gmail.com" && password === "pass123") {
-    const token = jwt.sign({ email }, SECRET_KEY, { expiresIn: "5m" });
+    const token = jwt.sign({ email }, SECRET_KEY, { expiresIn: "1m" });
     return res.json({ message: "Login sukses", token });
   }
 
@@ -103,6 +103,17 @@ app.delete("/api/karyawan/:id", verifyToken, (req, res) => {
     if (err) return res.status(500).json({ error: err.message });
     res.json({ message: "Data Karyawan dihapus" });
   });
+});
+
+// GET LOG
+app.get("/api/log", verifyToken, (req, res) => {
+  db.query(
+    "SELECT Id, DATE_FORMAT(Tanggal, '%Y-%m-%d') as Tanggal, Jam, Keterangan FROM TLOG ORDER BY Id DESC",
+    (err, results) => {
+      if (err) return res.status(500).json({ error: err.message });
+      res.json(results);
+    }
+  );
 });
 
 app.listen(5000, () => console.log("=> Server Backend jalan di port 5000"));
