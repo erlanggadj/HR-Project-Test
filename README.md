@@ -100,34 +100,6 @@ CREATE TABLE TLOG (
     Keterangan VARCHAR(255) NOT NULL
 );
 
--- Trigger untuk INSERT
-DELIMITER $$
-CREATE TRIGGER trg_after_insert_karyawan
-AFTER INSERT ON KARYAWAN
-FOR EACH ROW
-BEGIN
-    INSERT INTO TLOG (Tanggal, Jam, Keterangan)
-    VALUES (CURDATE(), CURTIME(), CONCAT('INSERT: Menambah karyawan baru (', NEW.Nama, ')'));
-END$$
-
--- Trigger untuk UPDATE
-CREATE TRIGGER trg_after_update_karyawan
-AFTER UPDATE ON KARYAWAN
-FOR EACH ROW
-BEGIN
-    INSERT INTO TLOG (Tanggal, Jam, Keterangan)
-    VALUES (CURDATE(), CURTIME(), CONCAT('UPDATE: Mengubah data karyawan ID #', NEW.Id));
-END$$
-
--- Trigger untuk DELETE
-CREATE TRIGGER trg_after_delete_karyawan
-AFTER DELETE ON KARYAWAN
-FOR EACH ROW
-BEGIN
-    INSERT INTO TLOG (Tanggal, Jam, Keterangan)
-    VALUES (CURDATE(), CURTIME(), CONCAT('DELETE: Menghapus data karyawan ID #', OLD.Id));
-END$$
-DELIMITER ;
 ```
 </details>
 
